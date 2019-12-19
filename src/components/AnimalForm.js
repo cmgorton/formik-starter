@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-const AnimalForm = ({ errors, touched, values }) => {
+const AnimalForm = () => {
   const [animal, setAnimal] = useState({ species: "" });
 
   const handleChange = event => {
